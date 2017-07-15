@@ -27,7 +27,15 @@
     {
         function content()
         { ?&gt;
-            &lt;div&gt;This is the content of the webpage&lt;/div&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="container"&gt;
+                    &lt;div class="col-md-12"&gt;
+                        &lt;p&gt;
+                            This is the content of the webpage
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
         &lt;?php }
 
         function styles()
@@ -35,7 +43,7 @@
             &lt;style&gt;
                 /* This is an example of custom CSS */
                 html {
-                    min-height: 100%;
+                    background-color: mediumseagreen;
                 }
             &lt;/style&gt;
         &lt;?php }
